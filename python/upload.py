@@ -11,7 +11,7 @@ TIMESTAMP = 0
 
 def upload(filename):
     with pysftp.Connection('yoursv', username='yourusrname', password='yourpass') as sftp: # enter your credentials here!
-    	with sftp.cd('html/d_fhp/io-slime-mold/data'): #remote dir path
+    	with sftp.cd('full/path/on/ftp-server/data'): #remote dir path
     		sftp.put(filename) #local file path
 
 
