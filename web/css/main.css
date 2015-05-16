@@ -1,0 +1,26 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+#img_container{
+	padding: 20px;
+	margin-top: 20px;
+	background-color: #EEEEEE;
+}
+
+#img_container img{
+	border: 2px solid #FFF;
+	margin-bottom: 20px;
+}
+
+.hover{
+	border: 2px solid #ba3249 !important;
+	outline: 10px solid #e37285;
+}
