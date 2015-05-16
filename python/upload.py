@@ -5,7 +5,7 @@ import pysftp # to establish sftp connection
 import time	# timestamp testing
 import datetime # for timestamp
 
-IMAGEFOLDER = "data/" # save directory for captured files
+IMAGEFOLDER = "/home/pi/cam/data/" # save directory for captured files (full path required if run via crontab!)
 IMAGENAME = "slime" # root name of captured file
 TIMESTAMP = 0
 
